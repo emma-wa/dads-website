@@ -1,0 +1,124 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #c4c2be;
+}
+
+img {
+  width: 100%;
+}
+
+.image-container img {
+	transition: box-shadow .5s;
+}
+
+.image-container img:hover {
+	box-shadow: 10px 10px 5px grey;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+.jumbotron-fluid {
+  height: 29rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  background-image: url("../images/anza_borrego1.jpg");
+  color: #431948;
+  text-align: right;
+}
+
+.jumbotron-fluid h1 {
+  font-size: 4rem;
+	font-weight: 100;
+	margin: 0;
+	padding-top: 3rem;
+}
+
+.jumbotron-fluid h2 {
+  font-size: 2rem;
+	font-weight: 100;
+	margin: 0;
+}
+
+/*
+  ========================================
+  jumbotron header responsive design
+  ========================================
+*/
+@media only screen and (max-width: 660px) {
+.banner {
+		background: rgba(196, 203, 207, 0.3);
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.jumbotron-fluid h1 {
+	  font-size: 5rem;
+		font-weight: 400;
+	}
+
+	.jumbotron-fluid h2 {
+	  font-size: 3rem;
+		padding-top: 1rem;
+		font-weight: 400;
+	}
+}
+
+/*
+  ========================================
+  Gallery
+  ========================================
+*/
+
+.gallery  h2 {
+  font-weight: 400;
+  font-size: 2rem;
+	color: #431948;
+}
+
+.gallery h3 {
+  font-weight: 100;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.gallery a {
+	color: #2d75b4;
+	transition: text-shadow .4s;
+}
+
+.gallery a:hover {
+	text-decoration: none;
+	color: #002968;
+	text-shadow: 0 0 .9px #002968, 0 0 .9px #002968, 0 0 .9px #002968;
+}
+
+/*
+  ========================================
+  footer
+  ========================================
+*/
+
+footer {
+  font-weight: 400;
+  color: #431948;
+  font-size: 1.25rem;
+	padding: 2rem;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 .5rem;
+}
