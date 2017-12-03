@@ -23,6 +23,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+
     <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="Resources/js/slick/slick.css"/>
 
@@ -56,36 +57,57 @@
       		<h2>Featured Work</h2>
       </section>
       <div class="row">
+
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/JoshuaTree10.jpg" height="4898" width="3265" alt="Joshua Tree"><h3>Landscape</h3></a>
+            <a href="#"><img class="img-responsive" id="myImg1" src="Resources/images/JoshuaTree10.jpg" height="4898" width="3265" alt="Joshua Tree"><h3>Landscape</h3></a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/milkyway1.jpg" alt="Milky Way"><h3>Nighttime</h3></a>
+            <a href="#"><img class="img-responsive" id="myImg2" src="Resources/images/milkyway1.jpg" alt="Milky Way"><h3>Nighttime</h3></a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/countyfair.jpg" height="4898" width="3265" alt="Riverside County Fair"><h3>Urban</h3></a>
+            <a href="#"><img class="img-responsive" id="myImg3" src="Resources/images/countyfair.jpg" height="4898" width="3265" alt="Riverside County Fair"><h3>Urban</h3></a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/basquedancers.jpg" height="912" width="1368" alt="Basque Dancers"><h3>People</h3></a>
+            <a href="#"><img class="img-responsive"  id="myImg4" src="Resources/images/basquedancers.jpg" height="912" width="1368" alt="Basque Dancers"><h3>People</h3></a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/hondarribia.jpg" height="912" width="1368" alt="Hondarribia Spain"><h3>Travel</h3></a>
+            <a href="#"><img class="img-responsive" id="myImg5" src="Resources/images/hondarribia.jpg" height="912" width="1368" alt="Hondarribia Spain"><h3>Travel</h3></a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" src="Resources/images/umbrellas.jpg" height="213" width="320" alt="Umbrellas"><h3>Artistic</h3></a>
+            <a href="#"><img class="img-responsive" id="myImg6" src="Resources/images/umbrellas.jpg" height="213" width="320" alt="Umbrellas"><h3>Artistic</h3></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <div class="carousel">
+          <div class="a1">
+            <span></span>
+          </div>
+          <div class="a2">
+            <span></span>
+          </div>
+          <div class="a3">
+            <span></span>
           </div>
         </div>
       </div>
@@ -101,8 +123,5 @@
         </div>
       </div>
     </footer>
-    <!-- Fancybox -->
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="jquery.fancybox.min.js"></script>
 	</body>
 </html>
