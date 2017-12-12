@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-    <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="Resources/js/slick/slick.css"/>
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="Resources/fancybox-master/dist/jquery.fancybox.min.css" type="text/css" media="screen" />
 
     <!-- Personal CSS -->
     <link rel="stylesheet" href="Resources/css/style.css" type="text/css">
@@ -37,8 +37,10 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 
-    <!-- Slick script -->
-    <script type="text/javascript" src="resources/js/slick/slick.min.js"></script>
+    <!-- Fancybox script -->
+    <script type="text/javascript" src="Resources/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+    <script type="text/javascript" src="Resources/fancybox-master/src/js/wheel.js"></script>
 
     <!-- personal js script -->
     <script type="text/javascript" src="resources/js/main.js"></script>
@@ -56,58 +58,59 @@
     	<section class="row title-bar">
       		<h2>Featured Work</h2>
       </section>
+
+      <!-- Top Row -->
       <div class="row">
 
+        <!-- Column 1 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" id="myImg1" src="Resources/images/JoshuaTree10.jpg" height="4898" width="3265" alt="Joshua Tree"><h3>Landscape</h3></a>
+            <a data-fancybox="group" href="Resources/images/JoshuaTree10.jpg"><img class="img-responsive" src="Resources/images/JoshuaTree10.jpg" alt="Joshua Tree"><h3>Landscape</h3></a>
           </div>
         </div>
+          <a data-fancybox="group" href="Resources/images/anza_borrego1.jpg"></a>
+          <a data-fancybox="group" href="Resources/images/mastodonpeak.jpg"></a>
+          <a data-fancybox="group" href="Resources/images/JoshuaTree10.jpg"></a>
+
+        <!-- Column 2 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" id="myImg2" src="Resources/images/milkyway1.jpg" alt="Milky Way"><h3>Nighttime</h3></a>
+            <a data-fancybox="group2" href="Resources/images/milkyway1.jpg"><img class="img-responsive" src="Resources/images/milkyway1.jpg" alt="Joshua Tree"><h3>Landscape</h3></a>
           </div>
         </div>
+          <a data-fancybox="group2" href="Resources/images/JoshuaTree-2.jpg"></a>
+          <a data-fancybox="group2" href="Resources/images/countyfair1.jpg"></a>
+          <a data-fancybox="group2" href="Resources/images/milkyway1.jpg"></a>
+
+        <!-- Column 3 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
-            <a href="#"><img class="img-responsive" id="myImg3" src="Resources/images/countyfair.jpg" height="4898" width="3265" alt="Riverside County Fair"><h3>Urban</h3></a>
+            <a data-fancybox="group3" href="Resources/images/countyfair.jpg"><img class="img-responsive" src="Resources/images/countyfair.jpg" height="4898" width="3265" alt="Riverside County Fair"><h3>Urban</h3></a>
           </div>
         </div>
       </div>
+
+      <!-- Second Row -->
       <div class="row">
+
+        <!-- Column 1 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
             <a href="#"><img class="img-responsive"  id="myImg4" src="Resources/images/basquedancers.jpg" height="912" width="1368" alt="Basque Dancers"><h3>People</h3></a>
           </div>
         </div>
+
+        <!-- Column 2 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
             <a href="#"><img class="img-responsive" id="myImg5" src="Resources/images/hondarribia.jpg" height="912" width="1368" alt="Hondarribia Spain"><h3>Travel</h3></a>
           </div>
         </div>
+
+        <!-- Column 3 -->
         <div class="col-md-4 col-sm-12">
           <div class="image-container">
             <a href="#"><img class="img-responsive" id="myImg6" src="Resources/images/umbrellas.jpg" height="213" width="320" alt="Umbrellas"><h3>Artistic</h3></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
-
-        <!-- Modal Content (The Image) -->
-        <div class="carousel">
-          <div class="a1">
-            <span></span>
-          </div>
-          <div class="a2">
-            <span></span>
-          </div>
-          <div class="a3">
-            <span></span>
           </div>
         </div>
       </div>
